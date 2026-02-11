@@ -1,0 +1,66 @@
+##############################
+# IntelliJ IDEA
+##############################
+
+# Ignore all IntelliJ project files
+.idea/
+
+# But allow important config folders (optional)
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+!.idea/runConfigurations/
+
+# Ignore module files
+*.iml
+
+# IntelliJ workspace and misc files
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/compiler.xml
+.idea/encodings.xml
+
+##############################
+# Java
+##############################
+
+# Build directories
+/out/
+target/
+build/
+
+# Logs
+*.log
+
+# Class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+##############################
+# OS-specific
+##############################
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+##############################
+# Others
+##############################
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# IDE/editor caches
+.vscode/
+cache/
